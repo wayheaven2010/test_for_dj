@@ -3,7 +3,7 @@
 date_default_timezone_set("Asia/Taipei");
 
 
-echo "this is branch develop_1";exit;
+echo "this is branch develop_1 2nd time";exit;
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../yii/yii-1.1.10.r3566/framework/yii.php';
 //$config=dirname(__FILE__).'/protected/config/main.php';
