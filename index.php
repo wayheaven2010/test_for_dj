@@ -3,14 +3,11 @@
 date_default_timezone_set("Asia/Taipei");
 
 
-<<<<<<< HEAD
-echo "this is branch develop_1 2nd time";exit;
+#echo "this is branch develop_1 2nd time";exit;
 
 echo "I am merge from master after debug";exit;
 
-=======
 #echo "this is branch develop_1 2nd time";exit;
->>>>>>> master
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../yii/yii-1.1.10.r3566/framework/yii.php';
 //$config=dirname(__FILE__).'/protected/config/main.php';
