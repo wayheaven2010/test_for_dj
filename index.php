@@ -2,6 +2,8 @@
 
 date_default_timezone_set("Asia/Taipei");
 
+echo "I am debug_3";
+
 
 #<<<<<<< HEAD
 echo "I am develop_1 in developing and other gay is debuging in the sametime";exit;
