@@ -2,6 +2,8 @@
 
 date_default_timezone_set("Asia/Taipei");
 
+echo "I am debug_3";
+
 
 echo "I am develop_1 before debug_3";exit;
 
