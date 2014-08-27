@@ -3,6 +3,8 @@
 date_default_timezone_set("Asia/Taipei");
 
 
+echo "I am develop_1 before debug_3";exit;
+
 #<<<<<<< HEAD
 echo "I am develop_1 in developing and other gay is debuging in the sametime";exit;
 
