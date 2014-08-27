@@ -3,6 +3,8 @@
 date_default_timezone_set("Asia/Taipei");
 
 
+echo "I am debug 2 who want to merge to master";
+
 #echo "this is branch develop_1 2nd time";exit;
 
 echo "I am merge from master after debug";exit;
