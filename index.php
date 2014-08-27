@@ -3,6 +3,9 @@
 date_default_timezone_set("Asia/Taipei");
 
 
+echo "I am develop_1 in developing and other gay is debuging in the sametime";exit;
+
+
 #echo "this is branch develop_1 2nd time";exit;
 
 echo "I am merge from master after debug";exit;
