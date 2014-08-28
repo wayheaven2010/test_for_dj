@@ -5,6 +5,10 @@
  */
 
 // change the following paths if necessary
+
+echo "I am debug 4";
+
+
 $yii=dirname(__FILE__).'/../yii/yii-1.1.10.r3566/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/test.php';
 
