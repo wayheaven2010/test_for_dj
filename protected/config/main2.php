@@ -12,10 +12,17 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
+        'aliases' => array(
+        
+    	    'bootstrap' => realpath(__DIR__ . '/../extensions/bootstrap'), // change this if necessary
+   	 ),
+
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+        	'bootstrap.helpers.TbHtml',
+		'bootstrap.helpers.TbArray',
 	),
 
 	'modules'=>array(
@@ -28,10 +35,16 @@ return array(
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 		*/
+        	'gii' => array(
+	            'generatorPaths' => array('bootstrap.gii'),
+        	),
 	),
 
 	// application components
 	'components'=>array(
+'bootstrap' => array(
+            'class' => 'bootstrap.components.TbApi',   
+        ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -63,6 +76,11 @@ return array(
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
+/*
+        	'bootstrap' => array(
+	            'class' => 'bootstrap.components.TbApi',   
+        	),
+*/
         ),
 		'log'=>array(
 			'class'=>'CLogRouter',
@@ -87,4 +105,36 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+ // path aliases
+############## Yiistrap  http://www.getyiistrap.com/site/started#configuration
+/*
+ // path aliases
+    'aliases' => array(
+        
+        'bootstrap' => realpath(__DIR__ . '/../extensions/bootstrap'), // change this if necessary
+    ),
+    // import paths
+    'import' => array(
+        
+        'bootstrap.helpers.TbHtml',
+    ),
+    // application modules
+    'modules' => array(
+        
+        'gii' => array(
+            'generatorPaths' => array('bootstrap.gii'),
+        ),
+    ),
+    // application components
+    'components' => array(
+        
+        'bootstrap' => array(
+            'class' => 'bootstrap.components.TbApi',   
+        ),
+    ),
+
+*/
+############## Yiistrap
 );
+
+
